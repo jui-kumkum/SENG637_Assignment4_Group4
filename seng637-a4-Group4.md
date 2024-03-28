@@ -73,15 +73,15 @@ The functionalities tested using Selenium IDE by each member are summarized in t
 | Tester     |  Functionality  |
 | -------------- | --- |  
 | Niloofar Sharifisadr |     |
-| Niloofar Sharifisadr |     |
+|  |     |
 | Pratishtha      |     |
-| Pratishtha      |     |
+|      |     |
 | Kumkum Akter         |    | 
-| Kumkum Akter         |    | 
+|          |    | 
 | Arpita Chowdhury | Add cart|
-| Arpita Chowdhury | Select category |
+| | Select category |
 | Fadila Abdulai Hamid |   | 
-| Fadila Abdulai Hamid |   | 
+|  |   | 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
