@@ -54,10 +54,11 @@
 
 # Explain the use of assertions and checkpoints
 
-# how did you test each functionaity with different test data
+# How did you test each functionality with different test data
 
 # How the team work/effort was divided and managed
-Division of mutation analysis and additional test cases.
+Division of mutation analysis and additional test cases:
+The PIT mutation test and additional test case for increasing mutation coverage are divided by each member are summarized in the below table.
 | Mutation test      |   Tester |
 | -------------- | --- |  
 | Niloofar Sharifisadr |     |
@@ -66,7 +67,7 @@ Division of mutation analysis and additional test cases.
 | Arpita Chowdhury | |
 | Fadila Abdulai Hamid |   | 
 
-Division of Selenium IDE test cases
+Division of Selenium IDE test cases:
 
 The functionalities tested using Selenium IDE by each member are summarized in the below table.
 | Tester     |  Functionality  |
