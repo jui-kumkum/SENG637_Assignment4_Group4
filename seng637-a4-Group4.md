@@ -15,7 +15,7 @@
 
 # Report all the statistics and the mutation score for each test class
 ## Range.ExpandToinclude PIT Summery before
-![image](Images/ExpandtoIncludeBEFORE/PIT summery before(rangeExpandToinclude).png)
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/ExpandtoIncludeBEFORE/PIT%20summery%20before(rangeExpandToinclude).png)
 
 
 
