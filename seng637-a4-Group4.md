@@ -57,12 +57,29 @@
 # how did you test each functionaity with different test data
 
 # How the team work/effort was divided and managed
-| Mutation test      |   tester |
+Division of mutation analysis and additional test cases.
+| Mutation test      |   Tester |
 | -------------- | --- |  
 | Niloofar Sharifisadr |     |
 | Pratishtha      |     |
 | Kumkum Akter         |    | 
 | Arpita Chowdhury | |
+| Fadila Abdulai Hamid |   | 
+
+Division of Selenium IDE test cases
+
+The functionalities tested using Selenium IDE by each member are summarized in the below table.
+| Tester     |  Functionality  |
+| -------------- | --- |  
+| Niloofar Sharifisadr |     |
+| Niloofar Sharifisadr |     |
+| Pratishtha      |     |
+| Pratishtha      |     |
+| Kumkum Akter         |    | 
+| Kumkum Akter         |    | 
+| Arpita Chowdhury | Add cart|
+| Arpita Chowdhury | Select category |
+| Fadila Abdulai Hamid |   | 
 | Fadila Abdulai Hamid |   | 
 
 # Difficulties encountered, challenges overcome, and lessons learned
