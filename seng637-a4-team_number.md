@@ -14,6 +14,21 @@
 # Analysis of 10 Mutants of the Range class 
 
 # Report all the statistics and the mutation score for each test class
+## Range.ExpandToinclude PIT Summery before
+![image](
+
+
+## Range.Combine after
+<img src="media/combineafter.png" width="800" />
+
+
+## Range.Contains before
+![image](https://github.com/seng637-Winter/seng637-a3-niloofarsharifi/assets/17180836/471b0571-edcf-47c4-9c70-df148b343c6d)
+
+## Range.Contains after
+![image](https://github.com/seng637-Winter/seng637-a3-niloofarsharifi/assets/17180836/c683de39-f8b8-42fd-a0a8-0d97f811eb04)
+
+
 
 # Analysis drawn on the effectiveness of each of the test classes
 
