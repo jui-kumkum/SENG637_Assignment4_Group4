@@ -2,7 +2,7 @@
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
-| Group \4:      |    |
+| Group 4:      |    |
 | -------------- | --- |
 | Student 1 Names:Arpita Chowdhury | |
 | Student 2 Fadila Abdulai Hamid             |   
@@ -57,6 +57,13 @@
 # how did you test each functionaity with different test data
 
 # How the team work/effort was divided and managed
+| Mutation test      |   tester |
+| -------------- | --- |  
+| Niloofar Sharifisadr |     |
+| Pratishtha      |     |
+| Kumkum Akter         |    | 
+| Arpita Chowdhury | |
+| Fadila Abdulai Hamid |   | 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
