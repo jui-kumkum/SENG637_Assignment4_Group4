@@ -20,7 +20,8 @@
 
 
 ## Range.Combine after
-![image] (Images/ExpandtoIncludeBEFORE/PIT Mutation(rangeExpandToinclude).png)
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/ExpandtoIncludeBEFORE/PIT%20Mutation(rangeExpandToinclude).png)
+
 
 
 
