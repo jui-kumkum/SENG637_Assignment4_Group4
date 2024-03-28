@@ -19,16 +19,16 @@
 
 
 
-## Range.Combine after
+## Range.ExpandToinclude PIT Mutation before
 ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/ExpandtoIncludeBEFORE/PIT%20Mutation(rangeExpandToinclude).png)
 
 
 
 
-## Range.Contains before
-![image](https://github.com/seng637-Winter/seng637-a3-niloofarsharifi/assets/17180836/71-edcf-47c4-9c70-df148b343c6d)
+## Range.ExpandToinclude PIT Summery after
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/ExpandtoIncludeAFTER/RangeExpandtoInclude%20PIT%20Summery.png)
 
-## Range.Contains after
+## Range.ExpandToinclude PIT Mutation after
 ![image](https://github.com/seng637-Winter/seng637-a3e39-f8b8-42fd-a0a8-0d97f811eb04)
 
 
