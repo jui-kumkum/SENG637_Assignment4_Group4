@@ -33,6 +33,7 @@
 
 ## DataUtilitiesCreateNumberArray2D PIT Summery before
 ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/DataUtilitiesBefore/Numer2DArrayPIT%20Summery.png)
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/DataUtilitiesBefore/Numer2DArrayPIT%20Summery.png)
 
 ## DataUtilitiesCreateNumberArray2D PIT Mutation before
 ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/DataUtilitiesBefore/Numer2DArrayPITMutation.png)
