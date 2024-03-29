@@ -13,9 +13,10 @@
 |                |     |
 
 # Introduction
-In this assignment, we will explore mutation testing with the help of Pitest eclipse plugin to see how good our test suite is in catching bugs. Then, we will try to improve our test suite by adding more test cases which would increase our mutation score by atleast 10%.
-
-Then, in the next part of this assignment, we will use Selenium IDE to test few different functionalities of the Shop Smart Canada Page.
+In this assignment, we will explore mutation testing with the help of the Pitest eclipse plugin to see how good our test suite is at catching bugs. Then, we will try to improve our test suite by adding more test cases which would increase our mutation score by at least 10%.
+This assignment comprises two parts, in the first phase, we aim to increase the mutation coverage score by writing new test cases and using the test cases from the project's last phase. For this purpose, we used the Mutation Testing approach. This method is a type of software testing in which certain statements of the source code are changed to check if the test cases can find errors in the source code or not. We used the Pitest tool, an automated mutation testing system, which could produce different mutated programs, to run our test cases, and report the mutation coverage report. It also provides a log about which mutation is detected by our test cases (killed) and which survived. The system under test (SUT) is called JFreeChart, a library for creating professional charts. It is an open-source Java framework for chart calculation, creation, and display. JFreeChart makes it easy for developers to display professional quality charts in their applications.
+First, we analyze ten mutations by reading the mutation report log, and we explain which of them were killed by which original test case and how it is killed. Then, we report some equivalence mutations and try to detect them automatically. After that, we design the new test cases to increase the mutation coverage report. Then, we highlight some of the advantages and disadvantages of mutation testing.
+In the second phase of this assignment, we use Selenium IDE, a framework for testing web applications, to understand automated Graphical User Interface (GUI) testing and some of the features that record and replay test cases. GUI testing is the process of ensuring the proper functionality of the GUI for a specific application. We chose the Shop Smart Canada page as our SUT after familiarizing ourselves with the selenium tool extension in Chrome, we implemented test cases for ten different functionalities.
 
 # Analysis of 10 Mutants of the Range class 
 1. Mutation: Removed conditional - replaced comparison check with true in contains method.
@@ -89,19 +90,29 @@ We chose Shop Canada website for our test. And we tested main functionalities li
 Once the recording is finished we then ran the test cases, and make sure there are no errors. Also, we added assertions and checkpoints between the commands to ensure that test runs correctly with the correct results.
 7. Add to cart:Test for the no of valid product in add cart section.
 8. Category selection:Test for the appropriate category.
+9. 
 # Explain the use of assertions and checkpoints
+Assertions and checkpoints are software testing mechanisms to ensure code integrity and correctness of the software under test. While both may seem similar, they differ in their implementation and context of usage.
+In Selenium, a web testing tool, assertions are validations or checkpoints for an application. 
+The primary purpose of an assertion is to verify assumptions about the program’s behavior and detect any unexpected errors during runtime. They are implemented as conditional statements to evaluate a boolean expression. They are often used in stages of debugging and development to capture logical errors and ensure the application works as expected.
 
-For login, the user have to enter the email and password then press Sign in. If if the username or password is wrong an error should show up. Otherwise, can successfully Sign-In. 
+On the other hand, checkpoints are verification points in the test scripts where the tester validates whether the application state matches the expected outcome. The primary goal of checkpoints is to ensure the application works correctly at every stage of execution, providing feedback on success or failure at any specific operation. They are implemented using specific commands provided by testing frameworks. They are extensively used in automated testing to validate software functionality and behavior.
 
-For the invalid username (email) or password we used one assertion: assert text. This checks if the proper error message has been displayed.
-
-For the Searchbar we used assertion to voew the correct number of products as the result of searching Hat.So we used assert text to see 27 results for hat. 
-For the Menu, user should click on a category and go to a new page with ability to search products. We used assert element present to see if the search bar shows up. 
 
 
 # How did you test each functionality with different test data
+To test the functionality of our test cases, we followed the following steps;
+For instance, in the login, the user has to enter the email and password and then press Sign in. If the username or password is wrong an error should show up. Otherwise, successfully sign in. For the invalid username (email) or password, we used one assertion: assert text. This checks if the proper error message has been displayed.
+For the Searchbar we used assertion to view the correct number of products as the result of searching Hat. So we used assert text to see 27 results for the hat. 
+For the Menu, the user should click on a category and go to a new page with the ability to search for products. We used the assert element present to see if the search bar shows up. 
 
 # How the team work/effort was divided and managed
+The work was divided among the group members where each member was supposed to deploy the Pitest tool and get the mutation coverage report separately. 
+To increase the mutation coverage, new test cases were developed based on the mutation log for the tested methods and new methods in the Range class.
+For the Selenium part, each of us developed at least two test cases to become familiar with GUI testing.
+For the report compilation, a GitHub link was shared where all of us edited in, and the various sections of the report were distributed among us.
+However, some members had issues with the mutation testing and hence focused on some other aspects of the work to make the project successful.
+
 Division of mutation analysis and additional test cases:
 The PIT mutation test and additional test case for increasing mutation coverage are divided by each member are summarized in the below table.
 | Mutation test      |   Tester |
@@ -129,5 +140,10 @@ The functionalities tested using Selenium IDE by each member are summarized in t
 |  |   | 
 
 # Difficulties encountered, challenges overcome, and lessons learned
+Collaboration was a bit slow because we were almost reaching the end of the semester, and most of us were caught up with other projects from other courses. Despite all that, we gain insight into how to do mutation testing and why it is useful, measure the mutation score of test suites to analyze the results, and become familiar with the mutation testing tool, Pitest. 
+Also, we familiarized ourselves with automated GUI testing and became comfortable with some of the features that many record and replay testing tools and learned the differences between automated and manual GUI testing. Although we worked virtually, we performed collaborative testing where each of us used our critical thinking to encounter edge cases.
+We learned software engineer practices such as team effort, resolved conflicts, time management, and code commits through GIT and industrial defect tracking systems, processes, and practices.
 
 # Comments/feedback on the assignment itself
+we understood what the assignment was about and highlighted the summary as they depicted the assignment's outcome; Illustrated step-by-step instructions on how to set up the
+artifacts and test cases from the last phase and add the Pitest tool to the Eclipse IDE. The expected output of the assignment was clearly explained. This project, especially the Graphical User Interface testing part, was a very interesting subject to work on and could enhance our knowledge about mutation testing and automated GUI testing.
