@@ -15,6 +15,15 @@
 # Introduction
 
 # Analysis of 10 Mutants of the Range class 
+1. Mutation: Removed conditional - replaced comparison check with true in contains method.
+Effect: The mutation changes the method to always return true, disregarding the actual checks to determine if a value is within the range.
+Outcome: Killed. The test suite contains cases that check values outside and within the range, ensuring the method's logic is verified. When the mutation forces a constant true return, it contradicts the expected outcomes for out-of-range values, leading to the mutation being effectively countered by the existing tests.
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/assets/17180836/b133ad28-d0bc-46e6-976d-19f07b19fc29)
+
+2. Mutation: Decremented (--a) double local variable number one in contains method.
+Effect: This mutation would decrement the first double local variable, which could alter the comparison logic if such a variable were used. However, in this method, local variables are not directly manipulated this way; the method checks if the input value is within the specified range.
+Outcome: Survived. Since the method does not utilize mutable local double variables whose decrementation would impact the return value of contains, this mutation does not affect the method's correctness with respect to the test cases provided. Consequently, the tests do not cover a scenario where such a change would lead to a different outcome, allowing the mutation to survive.
+   ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/assets/17180836/658d4c68-82e9-4d07-bbd0-19c4afa5eb61)
 
 # Report all the statistics and the mutation score for each test class
 ## Range.ExpandToinclude PIT Summery before
