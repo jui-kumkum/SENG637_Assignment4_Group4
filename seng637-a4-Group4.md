@@ -67,31 +67,40 @@ Mutation testing is a software testing method that modifies the software (mutate
 
 ### Advantages of Mutation Testing:
 
-  - Improving Test Quality: It helps identify weaknesses in the test suite, indicating where additional tests are needed to add coverage.
+ - Improving Test Quality: It helps identify weaknesses in the test suite, indicating where additional tests are needed to add coverage.
   - Detecting Faults: Mutation testing can reveal specific conditions or edge cases that are not covered by the test suite.
-  - Increases Software qualities: By ensuring that the test suite can detect small changes, developers develop better softwares that are resilience against errors.
+  - Increases Software qualities: By ensuring that the test suite can detect small changes, developers develop better software that is resilient against errors.
   - Drives Effective Test Design: Encourages the development of more effective and comprehensive test cases, as it focuses on the behavior of the code rather than just code coverage metrics.
-    
-### Disdvantages of Mutation Testing:
+  - High coverage of the source program is attained.
+  - With mutation testing, testers could determine the quality of the test suites that they write.
+ 
 
-   - Slow Perfromance: Running tests on many software versions takes time.
-   - Misleading testers: Sometimes tests can't catch a bug and only wastes time on non-issues leading to false positives.
+### Disadvantages of Mutation Testing:
+
+- Slow Performance: Running tests on many software versions takes time.
+   - Misleading testers: Sometimes tests can't catch a bug and only waste time on non-issues leading to false positives.
    - Not applicable to Black box testing: It involves changing the source code so it's not suitable for black box testing.
-   - Resource intensive: Big software may have many possible errors, and using mutation testing requires resources.
-   - 
-# Explain your SELENUIM test case design process
-We chose Shop Canada website for our test. And we tested main functionalities listed below: 
-1. Signup: The website asks for Email, Password, confirm password, first name, last name, phone number, city, country and postal code. After entering these valuesby clicking on create account, sign up will be successful. We recorded all of these steps by Selenium under test case name ""SignUp". 
-2. Login: The system asks f user or Email and password and can login to the website.
-3. Login-Invalidusername: User entering wrong Email for login and get the invalid Username or Password error. 
-4. Login-InvalidPassword: User enters correct username but wrong password and system showed error.
-5. SearchBar: User clicks on the search box and searched for product "HAT". The system shows show 27 results for hats. 
-6. User opens Appliance menu and should go to a page with appliance products and search bar. 
-Once the recording is finished we then ran the test cases, and make sure there are no errors. Also, we added assertions and checkpoints between the commands to ensure that test runs correctly with the correct results.
-7. Add to cart:Test for the no of valid product in add cart section.
-8. Category selection:Test for the appropriate category.
+   - Resource intensive: Big software may have many possible errors, and using mutation testing requires resources
+  - Complex mutations are difficult to implement.
+  - Generating mutations is a very time-consuming process; therefore, it is impossible to do this testing without any automation tools.
+  - Since each mutation has the same number of test cases as the original program, a large number of mutant programs may need to be tested against the original test suite.
+
+
+# Explain your SELENUIM test case design process.
+
+We chose the Smart Shop Canada website for our test. We tested the main functionalities listed below: 
+1. Signup: The website asks for Email, Password, confirm password, first name, last name, phone number, city, country, and postal code. After entering these values by clicking on Create account, sign up will be successful. We recorded all of these steps by Selenium under the test case name "SignUp". 
+2. Login: The system asks for the user or Email and password and can log in to the website.
+3. Login-Invalidusername: The user enters the wrong Email for login and gets the invalid Username or Password error. 
+4. Login-InvalidPassword: The user enters the correct username but the wrong password and the system shows an error.
+5. SearchBar: The user clicks on the search box and searches for the product "HAT". The system shows 27 results for hats. 
+6. The user opens the Appliance menu and should go to a page with appliance products and a search bar. 
+Once the recording was finished we then ran the test cases and made sure there were no errors. Also, we added assertions and checkpoints between the commands to ensure that test runs correctly with the correct results.
+7. Add to cart: Test for the no of valid products in the add cart section.
+8. Category selection: Test for the appropriate category.
 9. Empty Shopping Cart: Test Removing Items from the cart.
 10. Filtering Search: Tested if filtering runs correctly.
+    
 # Explain the use of assertions and checkpoints
 Assertions and checkpoints are software testing mechanisms to ensure code integrity and correctness of the software under test. While both may seem similar, they differ in their implementation and context of usage.
 In Selenium, a web testing tool, assertions are validations or checkpoints for an application. 
@@ -107,7 +116,7 @@ For instance, in the login, the user has to enter the email and password and the
 For the Searchbar we used assertion to view the correct number of products as the result of searching Hat. So we used assert text to see 27 results for the hat. 
 For the Menu, the user should click on a category and go to a new page with the ability to search for products. We used the assert element present to see if the search bar shows up. 
 
-# How the team work/effort was divided and managed
+# How the teamwork/effort was divided and managed
 The work was divided among the group members where each member was supposed to deploy the Pitest tool and get the mutation coverage report separately. 
 To increase the mutation coverage, new test cases were developed based on the mutation log for the tested methods and new methods in the Range class.
 For the Selenium part, each of us developed at least two test cases to become familiar with GUI testing.
@@ -142,12 +151,12 @@ The functionalities tested using Selenium IDE by each member are summarized in t
 
 # Difficulties encountered, challenges overcome, and lessons learned
 Difficulties:
-1. There are several difficulties we faced in the time of PIT mutation in eclipse. Whenever I tried to run a PIT test in a different project in Elipse I faced this error, that there was no mutation coverage like Skipping coverage and analysis as no mutations found.
+1. There are several difficulties we faced in the time of PIT mutation in eclipse. Whenever I tried to run a PIT test in a different project in Elipse I faced this error, that there was no mutation coverage like Skipping coverage and analysis as no mutations were found.
 ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/prbarpita.PNG)
 
-2. In selinium test I founded freezing conditon of the website, it consumed a lot of time for the testing.
+2. In the selenium test I found a freezing condition of the website, it consumed a lot of time for the testing.
 
-Collaboration was a bit slow because we were almost reaching the end of the semester, and most of us were caught up with other projects from other courses. Despite all that, we gain insight into how to do mutation testing and why it is useful, measure the mutation score of test suites to analyze the results, and become familiar with the mutation testing tool, Pitest. 
+3. Collaboration was a bit slow because we were almost reaching the end of the semester, and most of us were caught up with other projects from other courses. Despite all that, we gain insight into how to do mutation testing and why it is useful, measure the mutation score of test suites to analyze the results, and become familiar with the mutation testing tool, Pitest. 
 Also, we familiarized ourselves with automated GUI testing and became comfortable with some of the features that many record and replay testing tools and learned the differences between automated and manual GUI testing. Although we worked virtually, we performed collaborative testing where each of us used our critical thinking to encounter edge cases.
 We learned software engineer practices such as team effort, resolved conflicts, time management, and code commits through GIT and industrial defect tracking systems, processes, and practices.
 
