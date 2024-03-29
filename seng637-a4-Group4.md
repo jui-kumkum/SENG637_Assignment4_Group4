@@ -23,7 +23,7 @@ Outcome: Killed. The test suite contains cases that check values outside and wit
 2. Mutation: Decremented (--a) double local variable number one in contains method.
 Effect: This mutation would decrement the first double local variable, which could alter the comparison logic if such a variable were used. However, in this method, local variables are not directly manipulated this way; the method checks if the input value is within the specified range.
 Outcome: Survived. Since the method does not utilize mutable local double variables whose decrementation would impact the return value of contains, this mutation does not affect the method's correctness with respect to the test cases provided. Consequently, the tests do not cover a scenario where such a change would lead to a different outcome, allowing the mutation to survive.
-   ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/assets/17180836/658d4c68-82e9-4d07-bbd0-19c4afa5eb61)
+![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/assets/17180836/658d4c68-82e9-4d07-bbd0-19c4afa5eb61)
 
 # Report all the statistics and the mutation score for each test class
 ## Range.ExpandToinclude PIT Summery before
