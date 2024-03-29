@@ -62,6 +62,22 @@ Outcome: Survived. Since the method does not utilize mutable local double variab
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
+Mutation testing is a software testing method that modifies the software (mutated) with small changes to provide errors or mutants. These mutations cab behave like common programming errors or introduce small faults to assess the quality of the test suite. The goal is to evaluate whether the written tests are able to detect these small errors or not.
+
+### Advantages of Mutation Testing:
+
+  - Improving Test Quality: It helps identify weaknesses in the test suite, indicating where additional tests are needed to add coverage.
+  - Detecting Faults: Mutation testing can reveal specific conditions or edge cases that are not covered by the test suite.
+  - Increases Software qualities: By ensuring that the test suite can detect small changes, developers develop better softwares that are resilience against errors.
+  - Drives Effective Test Design: Encourages the development of more effective and comprehensive test cases, as it focuses on the behavior of the code rather than just code coverage metrics.
+    
+### Disdvantages of Mutation Testing:
+
+   - Slow Perfromance: Running tests on many software versions takes time.
+   - Misleading testers: Sometimes tests can't catch a bug and only wastes time on non-issues leading to false positives.
+   - Not applicable to Black box testing: It involves changing the source code so it's not suitable for black box testing.
+   - Resource intensive: Big software may have many possible errors, and using mutation testing requires resources.
+   - 
 # Explain your SELENUIM test case design process
 We chose Shop Canada website for our test. And we tested main functionalities listed below: 
 1. Signup: The website asks for Email, Password, confirm password, first name, last name, phone number, city, country and postal code. After entering these valuesby clicking on create account, sign up will be successful. We recorded all of these steps by Selenium under test case name ""SignUp". 
