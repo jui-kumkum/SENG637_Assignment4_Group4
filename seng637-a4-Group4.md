@@ -58,6 +58,7 @@ Outcome: Survived. Since the method does not utilize mutable local double variab
 # Analysis drawn on the effectiveness of each of the test classes
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
+Equivalent mutants are mutations that, although syntactically different from the original program, do not change its behavior. The presence of equivalent mutants can impact the accuracy of mutation score calculations in mutation testing. Such mutants are called equivalent mutants. The mutation score is defined as the percentage of killed mutants divided by the total number of mutants.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
