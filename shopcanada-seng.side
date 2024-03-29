@@ -2014,3 +2014,133 @@
   "urls": ["https://shopsmartcanada.com/"],
   "plugins": []
 }
+
+public class PlaceOrderTest {
+    private WebDriver driver;
+
+    @Before
+    public void setUp() {
+        // Set the path to ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "/Users/fadisky/Desktop/chromedriver_mac64");
+
+        // Create a new instance of the ChromeDriver
+        driver = new ChromeDriver();
+    }
+
+    @Test
+    public void testPlaceOrder() {
+        // Navigate to the e-commerce website
+        driver.get("https://shopsmartcanada.com/");
+
+        // Find and click on the product to view details
+        WebElement productLink = driver.findElement(By.xpath("//div[@class='//*[@id=\\\"product-listing-container\\\"]/div[2]/ul/li[2]/article/figure/a/div/img[2]']\"')]"));
+        productLink.click();
+
+        // Add the product to the cart
+        WebElement addToCartButton = driver.findElement(By.xpath(".//*[@id=\\\"product-listing-container\\\"]/div[2]/ul/li[7]/article/div[2]/div/div[1]/a']\")]"));
+        addToCartButton.click();
+
+        // Proceed to checkout
+        WebElement checkoutButton = driver.findElement(By.xpath("///*[@id=\"cart-preview-dropdown\"]/div/div[4]/div[1]/div[2]/a')]"));
+        checkoutButton.click();
+
+        // Fill in shipping information
+        WebElement fullNameInput = driver.findElement(By.id("fullName"));
+        fullNameInput.sendKeys("John Doe");
+
+        WebElement addressInput = driver.findElement(By.id("address"));
+        addressInput.sendKeys("123 Main St");
+
+        WebElement cityInput = driver.findElement(By.id("Calgary"));
+        cityInput.sendKeys("Anytown");
+
+        WebElement postalCodeInput = driver.findElement(By.id("postalCode"));
+        postalCodeInput.sendKeys("T2N5A6");
+
+        // Select payment method
+        WebElement paymentMethod = driver.findElement(By.xpath("//input[@id='paymentMethod'][@value='creditCard']"));
+        paymentMethod.click();
+
+        // Place the order
+        WebElement placeOrderButton = driver.findElement(By.xpath("///*[@id=\"topOfPage\"]/div[9]/div[1]/nav/ul/li[1]/a')]"));
+        placeOrderButton.click();
+
+        // Verify that the order is placed successfully
+        WebElement confirmationMessage = driver.findElement(By.xpath("//div[@id='confirmationMessage']"));
+        String actualMessage = confirmationMessage.getText();
+        assertEquals("Your order has been placed successfully!", actualMessage);
+    }
+
+    @After
+    public void tearDown() {
+        // Close the browser window
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}
+@Test
+    public void testAddAndEditAddress() {
+        // Navigate to the e-commerce website
+        driver.get("https://shopsmartcanada.com/");
+
+        // Login to the website (assuming login functionality exists)
+        WebElement usernameInput = driver.findElement(By.id("username"));
+        usernameInput.sendKeys("Fadila");
+
+        WebElement passwordInput = driver.findElement(By.id("password"));
+        passwordInput.sendKeys("Fadisky@98?");
+
+        WebElement loginButton = driver.findElement(By.id("login-button"));
+        loginButton.click();
+
+        // Navigate to the address book page
+        WebElement addressBookLink = driver.findElement(By.xpath("//*[@id=\"topOfPage\"]/div[9]/div[1]/nav/ul/li[3]/a)]"));
+        addressBookLink.click();
+
+        // Add a new address
+        WebElement addAddressButton = driver.findElement(By.xpath("//*[@id=\"topOfPage\"]/div[9]/div[1]/main/ul/li[2]/a/span)]"));
+        addAddressButton.click();
+
+        // Fill in the address details
+        WebElement fullNameInput = driver.findElement(By.id("fullName"));
+        fullNameInput.sendKeys("Fadila");
+
+        WebElement addressInput = driver.findElement(By.id("address"));
+        addressInput.sendKeys("250 collegiat blvd nw");
+
+        WebElement cityInput = driver.findElement(By.id("calgary"));
+        cityInput.sendKeys("Anytown");
+
+        WebElement postalCodeInput = driver.findElement(By.id("postalCode"));
+        postalCodeInput.sendKeys("T2n5A6");
+
+        // Save the new address
+        WebElement saveAddressButton = driver.findElement(By.xpath("//*[@id=\"topOfPage\"]/div[9]/div[1]/main/ul/li[1]/div/div/form/div/button')]"));
+        saveAddressButton.click();
+
+        // Edit the newly added address
+        WebElement editAddressButton = driver.findElement(By.xpath("//*[@id=\"topOfPage\"]/div[9]/div[1]/main/ul/li[1]/div/div/form/div/a)]"));
+        editAddressButton.click();
+
+      
+        // Save the edited address
+        WebElement saveEditedAddressButton = driver.findElement(By.xpath("//button[contains(@class, 'save-address-btn')]"));
+        saveEditedAddressButton.click();
+
+        // Verify that the address is updated successfully
+        WebElement confirmationMessage = driver.findElement(By.xpath("//div[@id='confirmationMessage']"));
+        String actualMessage = confirmationMessage.getText();
+        assertEquals("Address updated successfully!", actualMessage);
+    }
+
+    @After
+    public void tearDown() {
+        // Close the browser window
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}
+
+
