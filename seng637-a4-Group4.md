@@ -13,6 +13,9 @@
 |                |     |
 
 # Introduction
+In this assignment, we will explore mutation testing with the help of Pitest eclipse plugin to see how good our test suite is in catching bugs. Then, we will try to improve our test suite by adding more test cases which would increase our mutation score by atleast 10%.
+
+Then, in the next part of this assignment, we will use Selenium IDE to test few different functionalities of the Shop Smart Canada Page.
 
 # Analysis of 10 Mutants of the Range class 
 1. Mutation: Removed conditional - replaced comparison check with true in contains method.
