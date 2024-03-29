@@ -85,7 +85,7 @@ Division of mutation analysis and additional test cases:
 The PIT mutation test and additional test case for increasing mutation coverage are divided by each member are summarized in the below table.
 | Mutation test      |   Tester |
 | -------------- | --- |  
-| Niloofar Sharifisadr |     |
+| Niloofar Sharifisadr | Range.Contains and DataUtilities.CalculateColumnTotal    |
 | Pratishtha      |     |
 | Kumkum Akter         |    | 
 | Arpita Chowdhury | |
@@ -96,9 +96,9 @@ Division of Selenium IDE test cases:
 The functionalities tested using Selenium IDE by each member are summarized in the below table.
 | Tester     |  Functionality  |
 | -------------- | --- |  
-| Niloofar Sharifisadr |     |
+| Niloofar Sharifisadr |  Login(Valid and Invalid) and Sign Up   |
 |  |     |
-| Pratishtha      |     |
+| Pratishtha      | Menu and Search Bar    |
 |      |     |
 | Kumkum Akter         |    | 
 |          |    | 
