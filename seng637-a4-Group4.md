@@ -96,10 +96,10 @@ Division of Selenium IDE test cases:
 The functionalities tested using Selenium IDE by each member are summarized in the below table.
 | Tester     |  Functionality  |
 | -------------- | --- |  
-| Niloofar Sharifisadr |  Login(Valid and Invalid) and Sign Up   |
-|  |     |
-| Pratishtha      | Menu and Search Bar    |
-|      |     |
+| Niloofar Sharifisadr |  Login(Valid and Invalid)    |
+|  |  Sign Up  |
+| Pratishtha      | Menu    |
+|      |   Search Bar  |
 | Kumkum Akter         |    | 
 |          |    | 
 | Arpita Chowdhury | Add cart|
