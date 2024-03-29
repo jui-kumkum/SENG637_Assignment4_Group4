@@ -129,7 +129,7 @@ The PIT mutation test and additional test case for increasing mutation coverage 
 | -------------- | --- |  
 | Niloofar Sharifisadr | Range.Contains and DataUtilities.CalculateColumnTotal    |
 | Pratishtha      |     |
-| Kumkum Akter         |    | 
+| Kumkum Akter         |  Range.ExpandToinclude and DataUtilities.CreateNumberArray2D  | 
 | Arpita Chowdhury | |
 | Fadila Abdulai Hamid |   | 
 
@@ -142,8 +142,8 @@ The functionalities tested using Selenium IDE by each member are summarized in t
 |  |  Sign Up  |
 | Pratishtha      | Menu    |
 |      |   Search Bar  |
-| Kumkum Akter         |    | 
-|          |    | 
+| Kumkum Akter         |   Filtering Search Bar | 
+|          |  Empty Shopping Cart  | 
 | Arpita Chowdhury | Add cart|
 | | Select category |
 | Fadila Abdulai Hamid |   | 
