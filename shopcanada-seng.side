@@ -783,3 +783,400 @@
   "urls": ["https://shopsmartcanada.com/"],
   "plugins": []
 }
+{
+  "id": "cfc372e4-28d8-44d2-bc43-addfa8894de0",
+  "version": "2.0",
+  "name": "LAB 4_Arpita ",
+  "url": "https://shopsmartcanada.com",
+  "tests": [{
+    "id": "e0f7aec3-6326-4be9-8949-f8e08c9bc77c",
+    "name": "category_search",
+    "commands": [{
+      "id": "e332be2b-214c-414d-8169-6d02bb237dd1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2be39550-6c05-4a65-b1bd-67c77345260a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca20222d-1563-46c6-bff9-afe75fc2bea1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sports & Fitness",
+      "targets": [
+        ["linkText=Sports & Fitness", "linkText"],
+        ["css=.navPages-item--id-163 > .navPages-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports & Fitness')]", "xpath:link"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/nav/ul/li[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62a7d2fd-4625-4e1f-8ef7-ad5030dd8be6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Sports & Fitness",
+      "targets": [
+        ["linkText=Sports & Fitness", "linkText"],
+        ["css=.navPages-item--id-163 > .navPages-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports & Fitness')]", "xpath:link"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/nav/ul/li[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4cb5111-fcfd-43a1-b036-a30994b8752b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Sports & Fitness",
+      "targets": [
+        ["linkText=Sports & Fitness", "linkText"],
+        ["css=.navPages-item--id-163 > .navPages-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Sports & Fitness')]", "xpath:link"],
+        ["xpath=//div[@id='bf-fix-menu-mobile']/nav/ul/li[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/')]", "xpath:href"],
+        ["xpath=//nav/ul/li[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8879a32-6abf-4ac8-b844-9d3bb205a718",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,137.60000610351562)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7859356-769c-4f0a-b38c-9c60c59d3946",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Boating & Watersports",
+      "targets": [
+        ["linkText=Boating & Watersports", "linkText"],
+        ["css=.subCategories-item:nth-child(3) > .subCategories-item-action", "css:finder"],
+        ["xpath=//a[contains(text(),'Boating & Watersports')]", "xpath:link"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/boating-watersports/')])[9]", "xpath:href"],
+        ["xpath=//div[9]/div/div[3]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b79261a-bf69-4673-bd9f-4c65fe4dd8c1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Boats & Kayaks",
+      "targets": [
+        ["linkText=Boats & Kayaks", "linkText"],
+        ["css=.subCategories-item:nth-child(2) > .subCategories-item-action", "css:finder"],
+        ["xpath=(//a[contains(text(),'Boats & Kayaks')])[2]", "xpath:link"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div/div[3]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/sports-fitness/boating-watersports/boats-kayaks/')])[2]", "xpath:href"],
+        ["xpath=//div[9]/div/div[3]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000d4f28-9b8e-4554-a013-3a76c728f2f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(2) .card-image:nth-child(2)",
+      "targets": [
+        ["css=.product:nth-child(2) .card-image:nth-child(2)", "css:finder"],
+        ["xpath=(//img[@alt='Azul Triton Pedal Drive Fishing Kayak'])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[2]/article/figure/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/article/figure/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37cfdb82-2679-45a5-9625-e953db26a99b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productView-headingWrapper > .container",
+      "targets": [
+        ["css=.productView-headingWrapper > .container", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba76bc35-6ad9-42ef-bc95-d4a2c9fad6bb",
+      "comment": "",
+      "command": "assertEditable",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Azul Triton Pedal Drive Fishing Kayak')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf4eba0-7c23-40e9-ab1f-0343629f30f9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Azul Triton Pedal Drive Fishing Kayak')]", "xpath:innerText"]
+      ],
+      "value": "2"
+    }]
+  }, {
+    "id": "09dfbfce-e116-4637-89b5-2e864a1bbc40",
+    "name": "cart",
+    "commands": [{
+      "id": "021e408a-10e0-4ce9-ba1e-9ecdc0c65bb5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "844e9c94-49a6-42db-96db-ee417ae0aad8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0f07e85-7b21-4ec9-b58e-ea29d279001a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,864.7999877929688)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a3c3ad7-4079-40d2-95ca-f4e9a08ba333",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1795.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20c3adee-63f9-4996-b426-9aa53c7a0ceb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-354584de-cf34-4c10-96dd-184a3334c565 > img",
+      "targets": [
+        ["css=#sd-image-354584de-cf34-4c10-96dd-184a3334c565 > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/1.jpg?t=1703569192')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-354584de-cf34-4c10-96dd-184a3334c565']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8627fb0b-3275-4b4a-9203-8f55cbc788ea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1584)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3a4fd7e-85ca-459e-8ec9-6f29b3c8b3d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product:nth-child(14) .card-image:nth-child(2)",
+      "targets": [
+        ["css=.product:nth-child(14) .card-image:nth-child(2)", "css:finder"],
+        ["xpath=(//img[@alt=\"Calvin Klein Women's Surface Seamless Bralette, 2-pack\"])[2]", "xpath:img"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[14]/article/figure/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//li[14]/article/figure/a/div/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bf70788-26af-4c96-97e2-678c1dd8d3b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,422.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d589973-e930-4e9e-92ba-caa57d35762d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navPages-243 .navPage-subMenu-item:nth-child(2) > .navPage-subMenu-action > span",
+      "targets": [
+        ["css=#navPages-243 .navPage-subMenu-item:nth-child(2) > .navPage-subMenu-action > span", "css:finder"],
+        ["xpath=//div[@id='navPages-243']/div[3]/ul/li[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//li[6]/div/div[3]/ul/li[2]/a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03bd3b24-5a22-432f-bdd6-353bbac0ac1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_focus .\\_qtyAdd > .button",
+      "targets": [
+        ["css=.\\_focus .\\_qtyAdd > .button", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[3]/article/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/cart.php?action=add&product_id=10967')])[2]", "xpath:href"],
+        ["xpath=//li[3]/article/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed730881-796a-4bbe-a961-3f3c1337c157",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem",
+      "targets": [
+        ["css=.previewCartItem", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768b3745-ba4b-4726-845a-36d40b907191",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.previewCartItem-name > a",
+      "targets": [
+        ["css=.previewCartItem-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Outdoor Playset  Solid Wood Douglas')]", "xpath:link"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li/div[2]/h6/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/outdoor-playset-solid-wood-douglas-3/')]", "xpath:href"],
+        ["xpath=//h6/a", "xpath:position"]
+      ],
+      "value": "Outdoor Playset Solid Wood Douglas"
+    }, {
+      "id": "fb9a35a2-b817-4cb8-8bb6-ee2b0e71a1e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_close:nth-child(1) > .icon:nth-child(1) > use",
+      "targets": [
+        ["css=.\\_close:nth-child(1) > .icon:nth-child(1) > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c7d471-0677-49bf-a92a-b43d416a4672",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_focus .\\_qtyAdd > .button",
+      "targets": [
+        ["css=.\\_focus .\\_qtyAdd > .button", "css:finder"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li[5]/article/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/cart.php?action=add&product_id=10964')])[3]", "xpath:href"],
+        ["xpath=//ul/li[5]/article/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "facc3997-f5bf-4916-a3fc-ddb162ac0aef",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.previewCartItem:nth-child(1) .button:nth-child(1)",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d9f7c4-f285-42e5-afa7-5c2b1459f0ab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.previewCartItem:nth-child(1) .button:nth-child(1)",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .button:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li/div[2]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5087ad-7e56-4275-86d0-467db319b916",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem:nth-child(1) > .previewCartItem-content",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) > .previewCartItem-content", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def910c2-0b56-4a97-ae82-45655b3a1c20",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.previewCartItem:nth-child(1) .previewCartItem-name > a",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .previewCartItem-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Outdoor Playset Solid  Wood Douglas')]", "xpath:link"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div/ul/li/div[2]/h6/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://shopsmartcanada.com/outdoor-playset-solid-wood-douglas-2/')]", "xpath:href"],
+        ["xpath=//h6/a", "xpath:position"]
+      ],
+      "value": "Outdoor Playset Solid Wood Douglas"
+    }, {
+      "id": "cde34080-ab3a-4fae-a389-d78930d4f6ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem:nth-child(1) .previewCartItem-remove use",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .previewCartItem-remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e49d7a14-f60d-4230-807a-7c944c5f0c60",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.previewCartItem-remove-icon use",
+      "targets": [
+        ["css=.previewCartItem-remove-icon use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "16858062-976a-4c4e-ad66-a8b08f095ae3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.previewCartItem-remove-icon use",
+      "targets": [
+        ["css=.previewCartItem-remove-icon use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3973082a-8ef3-4166-a0f5-fd8d308c8fe4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem-remove-icon > .icon",
+      "targets": [
+        ["css=.previewCartItem-remove-icon > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5ef0f1-6c8c-48d1-8ea2-6c0651f03ee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCart-emptyBody",
+      "targets": [
+        ["css=.previewCart-emptyBody", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "984c89f5-f8a3-4a83-871d-998f68e01ffd",
+      "comment": "",
+      "command": "assertNotSelectedValue",
+      "target": "css=.previewCart-emptyBody",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "204504a3-eed0-40a8-82ae-145179b72459",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://shopsmartcanada.com/"],
+  "plugins": []
+}
