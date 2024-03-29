@@ -143,7 +143,9 @@ The functionalities tested using Selenium IDE by each member are summarized in t
 Difficulties:
 1. There are several difficulties we faced in the time of PIT mutation in eclipse. Whenever I tried to run a PIT test in a different project in Elipse I faced this error, that there was no mutation coverage like Skipping coverage and analysis as no mutations found.
 ![image](https://github.com/jui-kumkum/SENG637_Assignment4_Group4/blob/main/Images/prbarpita.PNG)
-2.In selinium test I founded freezing conditon of the website, it consumed a lot of time for the testing.
+
+2. In selinium test I founded freezing conditon of the website, it consumed a lot of time for the testing.
+
 Collaboration was a bit slow because we were almost reaching the end of the semester, and most of us were caught up with other projects from other courses. Despite all that, we gain insight into how to do mutation testing and why it is useful, measure the mutation score of test suites to analyze the results, and become familiar with the mutation testing tool, Pitest. 
 Also, we familiarized ourselves with automated GUI testing and became comfortable with some of the features that many record and replay testing tools and learned the differences between automated and manual GUI testing. Although we worked virtually, we performed collaborative testing where each of us used our critical thinking to encounter edge cases.
 We learned software engineer practices such as team effort, resolved conflicts, time management, and code commits through GIT and industrial defect tracking systems, processes, and practices.
