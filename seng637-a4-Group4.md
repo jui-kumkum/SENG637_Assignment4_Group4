@@ -107,6 +107,12 @@ In Selenium, a web testing tool, assertions are validations or checkpoints for a
 The primary purpose of an assertion is to verify assumptions about the program’s behavior and detect any unexpected errors during runtime. They are implemented as conditional statements to evaluate a boolean expression. They are often used in stages of debugging and development to capture logical errors and ensure the application works as expected.
 
 On the other hand, checkpoints are verification points in the test scripts where the tester validates whether the application state matches the expected outcome. The primary goal of checkpoints is to ensure the application works correctly at every stage of execution, providing feedback on success or failure at any specific operation. They are implemented using specific commands provided by testing frameworks. They are extensively used in automated testing to validate software functionality and behavior.
+| Test Script Name      |  Varification Checkpoint  |
+| -------------- | --- |
+| Filtering_Search | Assert Text Backpack |
+| Empty_Cart         |   Assert empty text |
+|             |   
+|             |
 
 
 
