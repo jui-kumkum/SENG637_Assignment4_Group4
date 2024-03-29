@@ -90,7 +90,8 @@ We chose Shop Canada website for our test. And we tested main functionalities li
 Once the recording is finished we then ran the test cases, and make sure there are no errors. Also, we added assertions and checkpoints between the commands to ensure that test runs correctly with the correct results.
 7. Add to cart:Test for the no of valid product in add cart section.
 8. Category selection:Test for the appropriate category.
-9. 
+9. Empty Shopping Cart: Test Removing Items from the cart.
+10. Filtering Search: Tested if filtering runs correctly.
 # Explain the use of assertions and checkpoints
 Assertions and checkpoints are software testing mechanisms to ensure code integrity and correctness of the software under test. While both may seem similar, they differ in their implementation and context of usage.
 In Selenium, a web testing tool, assertions are validations or checkpoints for an application. 
