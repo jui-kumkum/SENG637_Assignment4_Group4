@@ -134,10 +134,10 @@ The PIT mutation test and additional test case for increasing mutation coverage 
 | Mutation test      |   Tester |
 | -------------- | --- |  
 | Niloofar Sharifisadr | Range.Contains and DataUtilities.CalculateColumnTotal    |
-| Pratishtha      |     |
-| Kumkum Akter         |  Range.ExpandToinclude and DataUtilities.CreateNumberArray2D  | 
-| Arpita Chowdhury | |
-| Fadila Abdulai Hamid |   | 
+| Pratishtha      | Range.combine and DataUtilities.CalculateRowTotal    |
+| Kumkum Akter         | Range.expandtoinclude and DataUtilities.CreatenumberArray2D  | 
+| Arpita Chowdhury |Range.Intersects and DataUtilities.CreatenumberArray |
+| Fadila Abdulai Hamid | Range.GetCentralValue and DataUtilities.getCumulativePercentages  | 
 
 Division of Selenium IDE test cases:
 
