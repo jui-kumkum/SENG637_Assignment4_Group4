@@ -56,8 +56,7 @@ We chose Shop Canada website for our test. And we tested main functionalities li
 2. Login: The system asks f user or Email and password and can login to the website.
 3. Login-Invalidusername: User entering wrong Email for login and get the invalid Username or Password error. 
 4. Login-InvalidPassword: User enters correct username but wrong password and system showed error.
-
-5.SearchBar: User clicks on the search box and searched for product "HAT". The system shows show 27 results for hats. 
+5. SearchBar: User clicks on the search box and searched for product "HAT". The system shows show 27 results for hats. 
 6. User opens Appliance menu and should go to a page with appliance products and search bar. 
 Once the recording is finished we then ran the test cases, and make sure there are no errors. Also, we added assertions and checkpoints between the commands to ensure that test runs correctly with the correct results.
 # Explain the use of assertions and checkpoints
