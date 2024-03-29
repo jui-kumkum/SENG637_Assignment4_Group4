@@ -113,8 +113,8 @@ In the Selenium IDE, these functionalities are implemented using assert and veri
 | -------------- | --- |
 | Filtering_Search | Assert Text Backpack |
 | Empty_Cart         |   Assert empty text |
-| Category_search           | Verifies the diapaer from baby section|
-| Add cart            | Verifies the item that added in the cart|
+| Category_search           | Verifies the diaper from baby section|
+| Add cart            | Verifies the item that was added in the cart|
 
 
 
