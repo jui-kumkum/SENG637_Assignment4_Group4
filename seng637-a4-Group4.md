@@ -14,8 +14,11 @@
 
 # Introduction
 In this assignment, we will explore mutation testing with the help of the Pitest eclipse plugin to see how good our test suite is at catching bugs. Then, we will try to improve our test suite by adding more test cases which would increase our mutation score by at least 10%.
+
 This assignment comprises two parts, in the first phase, we aim to increase the mutation coverage score by writing new test cases and using the test cases from the project's last phase. For this purpose, we used the Mutation Testing approach. This method is a type of software testing in which certain statements of the source code are changed to check if the test cases can find errors in the source code or not. We used the Pitest tool, an automated mutation testing system, which could produce different mutated programs, to run our test cases, and report the mutation coverage report. It also provides a log about which mutation is detected by our test cases (killed) and which survived. The system under test (SUT) is called JFreeChart, a library for creating professional charts. It is an open-source Java framework for chart calculation, creation, and display. JFreeChart makes it easy for developers to display professional quality charts in their applications.
+
 First, we analyze ten mutations by reading the mutation report log, and we explain which of them were killed by which original test case and how it is killed. Then, we report some equivalence mutations and try to detect them automatically. After that, we design the new test cases to increase the mutation coverage report. Then, we highlight some of the advantages and disadvantages of mutation testing.
+
 In the second phase of this assignment, we use Selenium IDE, a framework for testing web applications, to understand automated Graphical User Interface (GUI) testing and some of the features that record and replay test cases. GUI testing is the process of ensuring the proper functionality of the GUI for a specific application. We chose the Shop Smart Canada page as our SUT after familiarizing ourselves with the selenium tool extension in Chrome, we implemented test cases for ten different functionalities.
 
 # Analysis of 10 Mutants of the Range class 
