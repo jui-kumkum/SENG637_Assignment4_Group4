@@ -1180,3 +1180,837 @@
   "urls": ["https://shopsmartcanada.com/"],
   "plugins": []
 }
+
+{
+  "id": "ef73bf9f-4e38-4403-8c51-dc55f1bf3307",
+  "version": "2.0",
+  "name": "Search ",
+  "url": "https://shopsmartcanada.com",
+  "tests": [{
+    "id": "3c40a33c-3ee5-462d-b89c-44b9101ba0ab",
+    "name": "Searching",
+    "commands": [{
+      "id": "c60bd4e3-410d-4050-96c0-3d314d273ef5",
+      "comment": "",
+      "command": "open",
+      "target": "/?gad_source=1&gclid=EAIaIQobChMIx-b9z52YhQMVjBCtBh0WHgSMEAAYASAAEgKfw_D_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5785e34b-592f-4453-9cd1-0a7bf29bf3cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ffdd12e-97d6-4d23-aec5-cf5d938566ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Laptop"
+    }, {
+      "id": "8867d5d4-0dc8-4860-b177-583f2f87cb2f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "273223cb-8e7c-4c2d-a705-7b10aea7e3bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf710357-e78e-43ca-8d95-7109fec1ce4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_recent use",
+      "targets": [
+        ["css=.\\_recent use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81427d0d-c517-49ce-a819-ab1cb9c17869",
+      "comment": "",
+      "command": "click",
+      "target": "id=topOfPage",
+      "targets": [
+        ["id=topOfPage", "id"],
+        ["css=#topOfPage", "css:finder"],
+        ["xpath=//body[@id='topOfPage']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0192c73-5c95-472c-addb-db43cb2a2498",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2416c8f6-76b2-4c9b-93dc-5cfd64bb71bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4e5ac1-a783-49bc-b74a-35c84f5b8e1e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fb3e6f1-d36a-482f-8082-8f136ff58b6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "backpack"
+    }, {
+      "id": "0b3ddf36-ea74-4583-a744-ee7c662ca365",
+      "comment": "",
+      "command": "click",
+      "target": "css=#quickSearch-tab-products .product:nth-child(1) .card-image:nth-child(2)",
+      "targets": [
+        ["css=#quickSearch-tab-products .product:nth-child(1) .card-image:nth-child(2)", "css:finder"],
+        ["xpath=(//img[@alt='Osprey Aether Backpack'])[2]", "xpath:img"],
+        ["xpath=//div[@id='quickSearch-tab-products']/ul/li/article/figure/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a8bf5f-f8b8-4111-b5ce-1b70d3877fe9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,295)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80ee79f7-9433-4df1-b381-54a08a841fbb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Osprey Aether Backpack')]", "xpath:innerText"]
+      ],
+      "value": "Osprey Aether Backpack"
+    }, {
+      "id": "d374ebe8-1195-4e3f-9e60-eaa3af9d0e48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Osprey Aether Backpack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd10b9b3-1d06-427f-85dd-87e49287bb93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productView",
+      "targets": [
+        ["css=.productView", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8abd51d6-3cbd-4c54-8377-71e14fbbde4f",
+    "name": "Filtering search",
+    "commands": [{
+      "id": "27ef3708-5397-48d0-ab77-283977410a4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792a3402-1b5d-4340-999e-8912be06a44d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "779x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53cade6e-6fae-4362-b9d2-0cb85c1523b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "212e5fd4-5e32-4149-a4a9-c04e06373151",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dd22e7-7033-4fa5-a53d-1e7bf2617c0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_recent .icon",
+      "targets": [
+        ["css=.\\_recent .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbfe241d-6da8-4d21-8bbf-67f513762b1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.beautify__mainHeader > .container:nth-child(2)",
+      "targets": [
+        ["css=.beautify__mainHeader > .container:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4b0d7df-8692-4dae-a6af-c301bf294cfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc > img",
+      "targets": [
+        ["css=#sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/3.jpg?t=1703569330')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc']/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f88311ef-0496-4fb7-8a5a-f4e0fda4c87f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > .button",
+      "targets": [
+        ["css=li:nth-child(8) > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset/div[2]/ul/li[8]/button", "xpath:idRelative"],
+        ["xpath=//li[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0535884d-cb81-4104-9ad2-ecb3556c6c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf > img",
+      "targets": [
+        ["css=#sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/17.png?t=1703554647')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf']/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b964bd-c8bb-477e-9a6f-03f75a0c01dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navPages-24 .navPage-subMenu-item:nth-child(8) span",
+      "targets": [
+        ["css=#navPages-24 .navPage-subMenu-item:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='navPages-24']/div[3]/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Refrigerators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768bb84a-c187-41c2-bc91-0ad7c802eae8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42bc0459-cb20-4888-a4de-21d2f68886be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52e48412-dd1b-4fbd-866b-b7adbb015625",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > .button",
+      "targets": [
+        ["css=li:nth-child(5) > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset/div[2]/ul/li[5]/button", "xpath:idRelative"],
+        ["xpath=//li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Z to A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b626dd7-2bb6-4589-a1f5-8108015f0849",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Whirlpool Refrigerator Replacement Filters",
+      "targets": [
+        ["linkText=Whirlpool Refrigerator Replacement Filters", "linkText"],
+        ["css=.product:nth-child(1) .card-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Whirlpool Refrigerator Replacement Filters')]", "xpath:link"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li/article/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/whirlpool-refrigerator-replacement-filters/')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Whirlpool Refrigerator Replacement Filters')]", "xpath:innerText"]
+      ],
+      "value": "Whirlpool Refrigerator Replacement Filters"
+    }]
+  }, {
+    "id": "4e08083b-373a-45da-bd21-000fe26f2556",
+    "name": "Empty Shopping Cart",
+    "commands": [{
+      "id": "489f05d9-ff5b-491a-aca0-d9bb5517fed7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d795e41-1f33-421c-9134-fb9c0953d2ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2eed36e6-2039-41c4-8e5f-dff50e61f6fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.u-hideMobile > .icon",
+      "targets": [
+        ["css=.u-hideMobile > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d290674d-53de-4301-b2ff-75e803e9cb40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.u-hideMobile > .icon",
+      "targets": [
+        ["css=.u-hideMobile > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2bfcdc3-b0ac-497f-90dc-a5f664e3db3d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.u-hideMobile > .icon",
+      "targets": [
+        ["css=.u-hideMobile > .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b61afb-e1c0-4921-8550-d50c61f6686a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem:nth-child(1) .previewCartItem-remove use",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .previewCartItem-remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f250a06-4018-41a7-89b8-d8cc65c2e782",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem:nth-child(1) .previewCartItem-remove use",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .previewCartItem-remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0256fd0b-2b7c-4b2f-8ebc-4a9d0c3c5862",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem:nth-child(1) .previewCartItem-remove use",
+      "targets": [
+        ["css=.previewCartItem:nth-child(1) .previewCartItem-remove use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5dbea0-fabf-46f3-8e09-7434bc6af71d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.previewCartItem-remove-icon use",
+      "targets": [
+        ["css=.previewCartItem-remove-icon use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "36b4f2eb-477e-41cc-8eec-71369cbd9d65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loadingOverlay:nth-child(1)",
+      "targets": [
+        ["css=.loadingOverlay:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div", "xpath:idRelative"],
+        ["xpath=//body/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c4cc6f5-fc20-4525-a933-b759101e74e0",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.previewCart-emptyBody",
+      "targets": [
+        ["css=.previewCart-emptyBody", "css:finder"],
+        ["xpath=//div[@id='cart-preview-dropdown']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "Your cart is empty"
+    }]
+  }],
+  "suites": [{
+    "id": "2c6608a4-c917-41ce-b419-71f38def492b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3c40a33c-3ee5-462d-b89c-44b9101ba0ab"]
+  }],
+  "urls": ["https://shopsmartcanada.com/"],
+  "plugins": []
+}
+
+
+{
+  "id": "ef73bf9f-4e38-4403-8c51-dc55f1bf3307",
+  "version": "2.0",
+  "name": "Search ",
+  "url": "https://shopsmartcanada.com",
+  "tests": [{
+    "id": "3c40a33c-3ee5-462d-b89c-44b9101ba0ab",
+    "name": "Searching",
+    "commands": [{
+      "id": "c60bd4e3-410d-4050-96c0-3d314d273ef5",
+      "comment": "",
+      "command": "open",
+      "target": "/?gad_source=1&gclid=EAIaIQobChMIx-b9z52YhQMVjBCtBh0WHgSMEAAYASAAEgKfw_D_BwE",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5785e34b-592f-4453-9cd1-0a7bf29bf3cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ffdd12e-97d6-4d23-aec5-cf5d938566ea",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Laptop"
+    }, {
+      "id": "8867d5d4-0dc8-4860-b177-583f2f87cb2f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "273223cb-8e7c-4c2d-a705-7b10aea7e3bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf710357-e78e-43ca-8d95-7109fec1ce4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_recent use",
+      "targets": [
+        ["css=.\\_recent use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "81427d0d-c517-49ce-a819-ab1cb9c17869",
+      "comment": "",
+      "command": "click",
+      "target": "id=topOfPage",
+      "targets": [
+        ["id=topOfPage", "id"],
+        ["css=#topOfPage", "css:finder"],
+        ["xpath=//body[@id='topOfPage']", "xpath:attributes"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0192c73-5c95-472c-addb-db43cb2a2498",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2416c8f6-76b2-4c9b-93dc-5cfd64bb71bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4e5ac1-a783-49bc-b74a-35c84f5b8e1e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fb3e6f1-d36a-482f-8082-8f136ff58b6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div[2]/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "backpack"
+    }, {
+      "id": "0b3ddf36-ea74-4583-a744-ee7c662ca365",
+      "comment": "",
+      "command": "click",
+      "target": "css=#quickSearch-tab-products .product:nth-child(1) .card-image:nth-child(2)",
+      "targets": [
+        ["css=#quickSearch-tab-products .product:nth-child(1) .card-image:nth-child(2)", "css:finder"],
+        ["xpath=(//img[@alt='Osprey Aether Backpack'])[2]", "xpath:img"],
+        ["xpath=//div[@id='quickSearch-tab-products']/ul/li/article/figure/a/div/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a8bf5f-f8b8-4111-b5ce-1b70d3877fe9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,295)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80ee79f7-9433-4df1-b381-54a08a841fbb",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Osprey Aether Backpack')]", "xpath:innerText"]
+      ],
+      "value": "Osprey Aether Backpack"
+    }, {
+      "id": "d374ebe8-1195-4e3f-9e60-eaa3af9d0e48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container > .productView-titleWrapper > .productView-title",
+      "targets": [
+        ["css=.container > .productView-titleWrapper > .productView-title", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Osprey Aether Backpack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd10b9b3-1d06-427f-85dd-87e49287bb93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.productView",
+      "targets": [
+        ["css=.productView", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/div[9]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8abd51d6-3cbd-4c54-8377-71e14fbbde4f",
+    "name": "Filtering search",
+    "commands": [{
+      "id": "27ef3708-5397-48d0-ab77-283977410a4f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792a3402-1b5d-4340-999e-8912be06a44d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "779x695",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53cade6e-6fae-4362-b9d2-0cb85c1523b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "212e5fd4-5e32-4149-a4a9-c04e06373151",
+      "comment": "",
+      "command": "click",
+      "target": "id=search_query",
+      "targets": [
+        ["id=search_query", "id"],
+        ["name=search_query", "name"],
+        ["css=#search_query", "css:finder"],
+        ["xpath=//input[@id='search_query']", "xpath:attributes"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]/div/div[2]/form/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31dd22e7-7033-4fa5-a53d-1e7bf2617c0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_recent .icon",
+      "targets": [
+        ["css=.\\_recent .icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbfe241d-6da8-4d21-8bbf-67f513762b1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.beautify__mainHeader > .container:nth-child(2)",
+      "targets": [
+        ["css=.beautify__mainHeader > .container:nth-child(2)", "css:finder"],
+        ["xpath=//body[@id='topOfPage']/header/div/div[2]", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4b0d7df-8692-4dae-a6af-c301bf294cfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc > img",
+      "targets": [
+        ["css=#sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/3.jpg?t=1703569330')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-4c700b97-9676-4472-8ef1-cd6008aec2cc']/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f88311ef-0496-4fb7-8a5a-f4e0fda4c87f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(8) > .button",
+      "targets": [
+        ["css=li:nth-child(8) > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset/div[2]/ul/li[8]/button", "xpath:idRelative"],
+        ["xpath=//li[8]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0535884d-cb81-4104-9ad2-ecb3556c6c8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf > img",
+      "targets": [
+        ["css=#sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cdn11.bigcommerce.com/s-hwkzcsx88c/images/stencil/original/image-manager/17.png?t=1703554647')]", "xpath:img"],
+        ["xpath=//div[@id='sd-image-bdc99372-8d7d-4334-bca0-39a610ad3acf']/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b964bd-c8bb-477e-9a6f-03f75a0c01dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navPages-24 .navPage-subMenu-item:nth-child(8) span",
+      "targets": [
+        ["css=#navPages-24 .navPage-subMenu-item:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='navPages-24']/div[3]/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Refrigerators')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "768bb84a-c187-41c2-bc91-0ad7c802eae8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42bc0459-cb20-4888-a4de-21d2f68886be",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52e48412-dd1b-4fbd-866b-b7adbb015625",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(5) > .button",
+      "targets": [
+        ["css=li:nth-child(5) > .button", "css:finder"],
+        ["xpath=(//button[@type='button'])[12]", "xpath:attributes"],
+        ["xpath=//form[@id='papathemes-productsFilter-form']/fieldset/div[2]/ul/li[5]/button", "xpath:idRelative"],
+        ["xpath=//li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Z to A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b626dd7-2bb6-4589-a1f5-8108015f0849",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Whirlpool Refrigerator Replacement Filters",
+      "targets": [
+        ["linkText=Whirlpool Refrigerator Replacement Filters", "linkText"],
+        ["css=.product:nth-child(1) .card-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Whirlpool Refrigerator Replacement Filters')]", "xpath:link"],
+        ["xpath=//div[@id='product-listing-container']/div[2]/ul/li/article/div/h3/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://shopsmartcanada.com/whirlpool-refrigerator-replacement-filters/')])[2]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Whirlpool Refrigerator Replacement Filters')]", "xpath:innerText"]
+      ],
+      "value": "Whirlpool Refrigerator Replacement Filters"
+    }]
+  }],
+  "suites": [{
+    "id": "2c6608a4-c917-41ce-b419-71f38def492b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3c40a33c-3ee5-462d-b89c-44b9101ba0ab"]
+  }],
+  "urls": ["https://shopsmartcanada.com/"],
+  "plugins": []
+}
